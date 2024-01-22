@@ -2,9 +2,15 @@ package com.sandeep.learnspringframework.game;
 
 public class GameRunner {
 	
-	private MarioGame game;
+//	private MarioGame game;
+//	
+//	public GameRunner(MarioGame game) {
+//		this.game = game;
+//	}
 	
-	public GameRunner(MarioGame game) {
+	private SuperMario game;
+	
+	public GameRunner(SuperMario game) {
 		this.game = game;
 	}
 	
